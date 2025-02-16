@@ -1,0 +1,15 @@
+# Configuration for Pizza Palace
+Pizzeria: Pizza Palace
+BasePrice: 1600.0
+
+PizzaConfig: Deluxe Pizza
+
+OptionSet: Pizza Size
+Option: Small,0.0
+Option: Medium,250.0
+Option: Large,500.0
+
+OptionSet: Toppings
+Option: Pepperoni,200.0
+Option: Mushrooms,150.0
+Option: Onions,100.0

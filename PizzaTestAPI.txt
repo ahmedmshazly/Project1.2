@@ -1,0 +1,69 @@
+/app/extra/idea-IU/jbr/bin/java -javaagent:/app/extra/idea-IU/lib/idea_rt.jar=45561:/app/extra/idea-IU/bin -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath /home/ahmdmshazly/Desktop/1.2.v2/out/production/1.2.v2:/home/ahmdmshazly/.m2/repository/junit/junit/4.13.1/junit-4.13.1.jar:/home/ahmdmshazly/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/ahmdmshazly/.m2/repository/org/junit/jupiter/junit-jupiter/5.8.1/junit-jupiter-5.8.1.jar:/home/ahmdmshazly/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.8.1/junit-jupiter-api-5.8.1.jar:/home/ahmdmshazly/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/ahmdmshazly/.m2/repository/org/junit/platform/junit-platform-commons/1.8.1/junit-platform-commons-1.8.1.jar:/home/ahmdmshazly/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/ahmdmshazly/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.8.1/junit-jupiter-params-5.8.1.jar:/home/ahmdmshazly/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.8.1/junit-jupiter-engine-5.8.1.jar:/home/ahmdmshazly/.m2/repository/org/junit/platform/junit-platform-engine/1.8.1/junit-platform-engine-1.8.1.jar test.driver.FileIOTestDriver
+Pizzeria 'Deluxe Pizza' configured successfully from file: config.txt
+
+Pizzeria configuration loaded from file:
+Pizza Configuration: Deluxe Pizza
+Base Price: 0.0
+Option Sets:
+	Option Set: Pizza Size
+		Option[name=Small, price=0.0]
+		Option[name=Medium, price=250.0]
+		Option[name=Large, price=500.0]
+	Option Set: Toppings
+		Option[name=Pepperoni, price=200.0]
+		Option[name=Mushrooms, price=150.0]
+		Option[name=Onions, price=100.0]
+
+Process finished with exit code 0
+
+
+#############################################3
+
+/app/extra/idea-IU/jbr/bin/java -javaagent:/app/extra/idea-IU/lib/idea_rt.jar=39409:/app/extra/idea-IU/bin -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath /home/ahmdmshazly/Desktop/1.2.v2/out/production/1.2.v2:/home/ahmdmshazly/.m2/repository/junit/junit/4.13.1/junit-4.13.1.jar:/home/ahmdmshazly/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/ahmdmshazly/.m2/repository/org/junit/jupiter/junit-jupiter/5.8.1/junit-jupiter-5.8.1.jar:/home/ahmdmshazly/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.8.1/junit-jupiter-api-5.8.1.jar:/home/ahmdmshazly/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/ahmdmshazly/.m2/repository/org/junit/platform/junit-platform-commons/1.8.1/junit-platform-commons-1.8.1.jar:/home/ahmdmshazly/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/ahmdmshazly/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.8.1/junit-jupiter-params-5.8.1.jar:/home/ahmdmshazly/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.8.1/junit-jupiter-engine-5.8.1.jar:/home/ahmdmshazly/.m2/repository/org/junit/platform/junit-platform-engine/1.8.1/junit-platform-engine-1.8.1.jar test.driver.MultiUserTestDriver
+Pizzeria 'Pizza Palace' created successfully.
+User3 is updating the base price...
+Base price updated successfully.
+User3 updated the base price.
+User3 is updating the price of 'Medium' option...
+User2 is updating the base price...
+User1 is updating the base price...
+Option price updated successfully.
+Base price updated successfully.
+User1 updated the base price.
+User1 is updating the price of 'Medium' option...
+Base price updated successfully.
+User3 updated the price of 'Medium' option.
+User2 updated the base price.
+Option price updated successfully.
+User1 updated the price of 'Medium' option.
+User2 is updating the price of 'Medium' option...
+Option price updated successfully.
+User2 updated the price of 'Medium' option.
+
+Final pizzeria configuration after concurrent updates:
+Pizza Configuration: Deluxe Pizza
+Base Price: 1700.0
+Option Sets:
+	Option Set: Pizza Size
+		Option[name=Small, price=0.0]
+		Option[name=Medium, price=300.0]
+		Option[name=Large, price=500.0]
+
+Process finished with exit code 0
+
+
+###########################
+
+/app/extra/idea-IU/jbr/bin/java -javaagent:/app/extra/idea-IU/lib/idea_rt.jar=42385:/app/extra/idea-IU/bin -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath /home/ahmdmshazly/Desktop/1.2.v2/out/production/1.2.v2:/home/ahmdmshazly/.m2/repository/junit/junit/4.13.1/junit-4.13.1.jar:/home/ahmdmshazly/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/ahmdmshazly/.m2/repository/org/junit/jupiter/junit-jupiter/5.8.1/junit-jupiter-5.8.1.jar:/home/ahmdmshazly/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.8.1/junit-jupiter-api-5.8.1.jar:/home/ahmdmshazly/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/ahmdmshazly/.m2/repository/org/junit/platform/junit-platform-commons/1.8.1/junit-platform-commons-1.8.1.jar:/home/ahmdmshazly/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/ahmdmshazly/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.8.1/junit-jupiter-params-5.8.1.jar:/home/ahmdmshazly/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.8.1/junit-jupiter-engine-5.8.1.jar:/home/ahmdmshazly/.m2/repository/org/junit/platform/junit-platform-engine/1.8.1/junit-platform-engine-1.8.1.jar test.driver.PizzeriaAPITestDriver
+Pizzeria 'Pizza Palace' created successfully.
+Initial pizzeria configuration:
+Pizza Configuration: Deluxe Pizza
+Base Price: 1500.0
+Option Sets:
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "model.OptionSet.print()" because "os" is null
+	at model.PizzaConfig.print(PizzaConfig.java:116)
+	at wrapper.PizzeriaConfigAPI.printPizzeria(PizzeriaConfigAPI.java:50)
+	at test.driver.PizzeriaAPITestDriver.main(PizzeriaAPITestDriver.java:42)
+
+Process finished with exit code 1
+
